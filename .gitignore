@@ -1,0 +1,84 @@
+# .gitignore for ML Project
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+crowd_env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data files (too large for git)
+data/
+*.zip
+*.tar.gz
+*.csv
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Model files (large)
+models/*.h5
+models/*.pb
+models/*.ckpt
+*.weights
+
+# Dataset directories
+archive/
+UTKFace/
+CK+/
+widerface/
+
+# Results (can be regenerated)
+results/annotated_images/*.jpg
+results/annotated_images/*.png
+results/visualizations/*.png
+*.jpg
+*.png
+!sample_*.png  # Keep sample images
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
