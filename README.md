@@ -398,17 +398,6 @@ See `results/annotated_images/` for real-time inference examples.
 
 ---
 
-## 👥 Contributors
-
-**Sprint ML Team**  
-Sprint Capstone Project - December 2025
-
-For questions or collaboration:
-- Email: [your-email@example.com]
-- GitHub: [your-github-profile]
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -425,14 +414,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - MTCNN face detection library
 
 ---
-
-## 📚 References
-
-1. Yang, S., Luo, P., Loy, C. C., & Tang, X. (2016). WIDER FACE: A face detection benchmark. *CVPR*.
-2. Zhang, Z., Luo, P., Loy, C. C., & Tang, X. (2014). Facial landmark detection by deep multi-task learning. *ECCV*.
-3. Lucey, P., Cohn, J. F., Kanade, T., et al. (2010). The Extended Cohn-Kanade Dataset (CK+).
-4. Zhang, K., Zhang, Z., Li, Z., & Qiao, Y. (2016). Joint face detection and alignment using multitask cascaded convolutional networks.
-
----
-
-**Built with ❤️ using Python, TensorFlow, and OpenCV**
